@@ -1,0 +1,8 @@
+{
+  "dbInfo": {
+    "dbhost": "localhost",
+    "dbid": "g1umym",
+    "dbpasswd": "something"
+  },
+  "appName":  "MvcMovie2"
+}

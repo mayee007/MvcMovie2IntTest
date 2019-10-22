@@ -1,0 +1,13 @@
+﻿
+-- To group tests
+  [Fact]
+  [Trait("Category", "ControllerTests")]
+
+-- to list all test cases 
+dotnet test -t 
+
+--- to run a specific trait(category) from command line 
+dotnet test --filter  "Category=ControllerTests"
+
+--- to run specific test
+dotnet test --filter "FullyQualifiedName=MvcMovie2IntTestServer.IntegrationTests.MovieIntegrationFactoryTest.test1"
